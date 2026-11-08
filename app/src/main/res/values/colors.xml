@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Бело-зеленая чистая гамма (Calm Mind / Sage) -->
+    <color name="cbt_canvas_white">#FFFFFF</color>
+    <color name="cbt_background">#F7FAF8</color>
+    <color name="cbt_surface">#FFFFFF</color>
+    <color name="cbt_primary_green">#26734D</color>
+    <color name="cbt_primary_green_dark">#184C32</color>
+    <color name="cbt_mint_soft">#E9F5EE</color>
+    <color name="cbt_mint_subtle">#F1F7F3</color>
+    <color name="cbt_border">#E2ECE6</color>
+    <color name="cbt_text_primary">#1C2621</color>
+    <color name="cbt_text_secondary">#5B6E64</color>
+    <color name="cbt_text_placeholder">#8FA397</color>
+</resources>
