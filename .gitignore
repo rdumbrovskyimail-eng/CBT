@@ -1,0 +1,13 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+app/build/
+
+# Бинарный Gradle Wrapper jar исключен из отслеживания Git (скачивается автоматически через build.yml)
+gradle/wrapper/gradle-wrapper.jar
