@@ -2,6 +2,7 @@ package com.cbt.app.ui.editor
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.*
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -152,7 +153,7 @@ fun CbtEditorScreen(
                         containerColor = CbtPureWhite,
                         labelColor = CbtSagePrimary
                     ),
-                    border = AssistChipDefaults.assistChipBorder(borderColor = CbtBorderLight)
+                    border = BorderStroke(1.dp, CbtBorderLight)
                 )
 
                 // Скопировать
@@ -173,7 +174,7 @@ fun CbtEditorScreen(
                         containerColor = CbtPureWhite,
                         labelColor = CbtSageSecondary
                     ),
-                    border = AssistChipDefaults.assistChipBorder(borderColor = CbtBorderLight)
+                    border = BorderStroke(1.dp, CbtBorderLight)
                 )
 
                 // Заменить
@@ -187,7 +188,7 @@ fun CbtEditorScreen(
                         containerColor = CbtPureWhite,
                         labelColor = CbtSageSecondary
                     ),
-                    border = AssistChipDefaults.assistChipBorder(borderColor = CbtBorderLight)
+                    border = BorderStroke(1.dp, CbtBorderLight)
                 )
 
                 // Очистить
@@ -201,7 +202,7 @@ fun CbtEditorScreen(
                         containerColor = CbtPureWhite,
                         labelColor = CbtTextSecondary
                     ),
-                    border = AssistChipDefaults.assistChipBorder(borderColor = CbtBorderLight)
+                    border = BorderStroke(1.dp, CbtBorderLight)
                 )
             }
 
